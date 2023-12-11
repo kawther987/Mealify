@@ -1,0 +1,168 @@
+/* ----------- Start Dark Mode ----------- */
+
+body:not(body:has(:target)).dark-mode #navbar li a[href="#home"],
+body:has(#home:target).dark-mode li a[href="#home"],
+body:has(#contact:target).dark-mode li a[href="#contact"],
+body:has(#gallery:target).dark-mode li a[href="#gallery"],
+body:has(#chefs:target).dark-mode li a[href="#chefs"] {
+  color: #fff !important;
+}
+
+.dark-mode .title {
+  color: #fff;
+}
+.dark-mode #navbar {
+  background-color: #171717;
+}
+.dark-mode #navbar .logo a {
+  color: #fff;
+}
+.dark-mode #navbar .logo a::after {
+  color: #c17e1f;
+}
+.dark-mode #navbar ul a {
+  color: #9f9f9f;
+}
+.dark-mode #navbar a:hover {
+  color: #fff;
+}
+.dark-mode #navbar ul a::before {
+  background-color: #c17e1f;
+}
+.dark-mode #navbar i {
+  color: #fff;
+}
+.dark-mode #navbar .fa-moon {
+  display: none;
+}
+.dark-mode #navbar .fa-sun {
+  display: block;
+}
+
+.dark-mode #home {
+  background-color: #252525;
+}
+.dark-mode #home .caption h2 {
+  color: #fff;
+}
+.dark-mode #home .caption p {
+  color: #9f9f9f;
+}
+.dark-mode #home .caption .btn1 {
+  background-color: #c17e1f;
+}
+.dark-mode #home .btn1 a {
+  color: #171717;
+}
+.dark-mode #home .caption .video-btn {
+  color: #fff;
+}
+.dark-mode #home .caption .icon {
+  background-image: linear-gradient(
+    to right,
+    #c17e1f 0 50%,
+    transparent 50% 100%
+  );
+}
+.dark-mode #home .caption .video-btn:hover {
+  color: #c17e1f;
+}
+.dark-mode #home .caption .icon::before {
+  background-color: #171717;
+}
+.dark-mode #home .caption .btn1:hover {
+  background-color: #d78c23;
+}
+
+.dark-mode #chefs {
+  background-color: #202020;
+}
+.dark-mode #chefs svg {
+  fill: #171717;
+}
+.dark-mode #chefs .header span {
+  color: #c17e1f;
+}
+.dark-mode #chefs .layer h3 {
+  color: #fff;
+}
+.dark-mode #chefs .layer p {
+  color: #9f9f9f;
+}
+.dark-mode #chefs h6 {
+  color: #9f9f9f;
+}
+.dark-mode #chefs .chef .layer {
+  background-color: #171717;
+}
+
+.dark-mode #gallery {
+  background-color: #252525;
+}
+.dark-mode #gallery h6 {
+  color: #9f9f9f;
+}
+.dark-mode #gallery .title span {
+  color: #c17e1f;
+}
+
+.dark-mode #contact {
+  background-color: #202020;
+}
+.dark-mode #contact h2 span {
+  color: #c17e1f;
+}
+.dark-mode #contact .details .layer {
+  background-color: #0d0d0d;
+}
+.dark-mode #contact .icon {
+  background-color: #c17e1f;
+}
+.dark-mode #contact .icon i {
+  color: #0d0d0d;
+}
+.dark-mode #contact .details > div h3 {
+  color: #adadad;
+}
+.dark-mode #contact .details > div p {
+  color: #fff;
+}
+.dark-mode #contact .form-cointainer {
+  background-color: #171717;
+}
+.dark-mode #contact .form-cointainer input,
+.dark-mode #contact .form-cointainer textarea {
+  border-color: #000;
+}
+.dark-mode #contact input:focus,
+.dark-mode #contact textarea:focus {
+  outline: none;
+  border-color: #c17e1f;
+}
+.dark-mode #contact .form-cointainer button {
+  background-color: #c17e1f;
+  color: #171717;
+}
+.dark-mode #contact button:hover {
+  background-color: #d78c23;
+}
+
+.dark-mode #footer .logo::after {
+  color: #c17e1f;
+}
+.dark-mode #footer .about .social a:hover {
+  color: #d78c23;
+}
+
+.dark-mode #footer .subscription-form button {
+  background-color: #c17e1f;
+  color: #171717;
+}
+.dark-mode #footer .subscription-form button:hover {
+  background-color: #d78c23;
+}
+.dark-mode #footer .get-touch i {
+  color: #c17e1f;
+}
+
+/* ----------- End Dark mode ----------- */
